@@ -1,0 +1,1032 @@
+# This is the main configuration file for Entities aka Sushchestvos (in Russian).
+# 
+# If you need help with the configuration or have any questions related to Thermos,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# 
+# Setting: settings.skip-entity-ticks Default: true   # If enabled, allows the default entity tick skip feature when no players are near.
+# Setting: settings.prevent-invalid-entity-updates Default: true   # Used to determine if an entity should tick and if not the TE is added to a ban list. Note: This should help improve performance.
+# Setting: debug.enable-ent-can-update-warning Default: false   # Set true to detect which entities should not be ticking.
+
+settings:
+  skip-entity-ticks: true
+  prevent-invalid-entity-updates: true
+debug:
+  enable-ent-can-update-warning: false
+config-version: 1
+world-settings:
+  default:
+    micdoodle8-mods-galacticraft-core-entities-EntityEvolvedZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityEvolvedCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-asteroids-entities-EntityTier3Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityItemFrame:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySheep:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartChest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityPig:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-cart-CartIII2L12:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-loco-LocoOv:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-tender-TenderOv:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-BarnardsSystem-planets-barnardaC-entities-EntityCrawler:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityFallenKnight:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityLocomotiveSteamSolid:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartBasic:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartEnergyBatBox:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartCargo:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityVillager:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-emoniph-witchery-entity-EntityCovenWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-emoniph-witchery-entity-EntityVillageGuard:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    buildcraft-core-lib-EntityBlock:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityArrow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityChicken:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-emoniph-witchery-entity-EntityGoblin:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityCow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityMinecartChest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-world-entity-BlueSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mozeintel-projecte-gameObjs-entity-EntityLootBall:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityEnderminy:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityWitherWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mekanism-common-entity-EntityBabySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityConcussionCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-tools-entity-FancyEntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityXPOrb:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityBat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityHorse:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityMooshroom:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityPainting:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityBrainyZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityWitherCat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBasalz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFireworkRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-EntityAspectOrb:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityCultistCleric:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintSporeSwarmer:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityPech:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlizz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-loco-LocoHandcar:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityEldritchGuardian:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityEvolvedSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityTier1Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-entities-EntityTier2Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityEvolvedSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityMeteor:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-entities-EntitySlimeling:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntitySnowball:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityGiantBrainyZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-entity-GunHowitzerLight:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityIronGolem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityBlaze:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntitySmallFireball:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-projectile-EntityGolemOrb:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-weaponry-entity-BoltEntity:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mekanism-common-entity-EntityFlame:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-projectile-EntityAlumentum:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityFallenMount:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openblocks-common-entity-EntityXPOrbNoFly:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityExpBottle:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityPotion:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-world-entity-KingBlueSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityEgg:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityWisp:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityCultistKnight:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mozeintel-projecte-gameObjs-entity-EntityMobRandomizer:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-EntityFallingTaint:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-EntitySpecialItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityDireWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityTNTPrimed:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-entity-EntityCartRider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-loco-LocoSSW:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-projectile-EntityBlitzBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityOcelot:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartWork:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartUndercutter:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    powercrystals-minefactoryreloaded-entity-EntityRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityAlienVillager:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-projectile-EntityBlizzBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-entity-BulletShot2:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySquid:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityPigZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySilverfish:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityCaveSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    powercrystals-minefactoryreloaded-entity-EntitySafariNet:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityGhast:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-projectile-EntityEmber:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ckathode-archimedes-entity-EntityShip:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-ceres-entities-EntityTier4Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityCelestialFake:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-asteroids-entities-EntityEntryPod:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-asteroids-entities-EntitySmallAsteroid:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-pluto-entities-EntityTier8Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-entities-EntityLandingBalloons:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-venus-entities-EntityEvolvedFireCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-venus-entities-EntityEvolvedFireSkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-venus-entities-EntityEvolvedFireSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityFireBat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-emoniph-witchery-entity-EntityHellhound:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityMagmaCube:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mozeintel-projecte-gameObjs-entity-EntityHomingArrow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mozeintel-projecte-gameObjs-entity-EntityLavaProjectile:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-entities-EntityRevolvershot:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-moons-enceladus-entities-EntityTier6Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityParachest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintSheep:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-loco-LocoYer:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-loco-LocoCherepanov:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-tender-TenderCherepanov:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    appeng-entity-EntitySingularity:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-moons-europa-entities-EntityEvolvedColdBlaze:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openblocks-common-entity-EntityLuggage:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-pluto-entities-EntityEvolvedEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-projectile-EntityFrostShard:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-moons-io-entities-EntityTier5Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    appeng-entity-EntityGrowingCrystal:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-moons-proteus-entities-EntityEvolvedBossSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-moons-proteus-entities-EntityTier7Rocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityLander:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-pluto-entities-EntityEvolvedBossWolf:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-moons-enceladus-entities-EntityCrystalBoss:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityLargeFireball:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-cart-CartNT:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-cart-CartNTV:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-cart-CartFlatbedLong:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-moons-io-entities-EntityBossGhast:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-cart-CartBobber:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-cart-CartFlatbed:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-projectile-EntityBasalzBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntitySkeletonBoss:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityArrowGC:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    appeng-entity-EntityChargedQuartz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityEnderPearl:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-effect-EntityLightningBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-row-stock-cart-CartCherepanovTub:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-entities-EntitySludgeling:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    li-cil-oc-common-entity-Drone:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-entities-EntityCreeperBoss:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-mars-entities-EntityProjectileTNT:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintacle:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintChicken:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityLocomotiveElectric:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-EntityLeashKnot:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityBoat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityThaumicSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintSpore:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityManaElemental:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityManaCreeper:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityFishHook:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityDryad:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityManaVortex:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintSwarm:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityFlicker:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    jds-bibliocraft-entity-EntitySeat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityEarthElemental:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityEnderEye:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-projectile-EntityEldritchOrb:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ckathode-archimedes-entity-EntitySeat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityHecate:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityDarkMage:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ic2-core-item-EntityBoatCarbon:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ckathode-archimedes-entity-EntityParachute:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-EntityPermanentItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityInhabitedZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityEldritchCrab:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-boss-EntityTaintacleGiant:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintacleSmall:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityTaintPig:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-golems-EntityGolemBase:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityLocomotiveCreative:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartTank:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartAnchorAdmin:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartRF:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-EntityMindSpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ic2-core-item-tool-EntityMiningLaser:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityBuggy:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    buildcraft-builders-EntityMechanicalArm:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openblocks-common-entity-EntityHangGlider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityFireElemental:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntityDarkling:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    am2-entities-EntitySpellProjectile:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    thaumcraft-common-entities-monster-boss-EntityCultistPortal:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    appeng-entity-EntityTinyTNTPrimed:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityMeteorChunk:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-boss-EntityWither:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityWitherSkull:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityEnderCrystal:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartTNT:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-emoniph-witchery-entity-EntityReflection:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-emoniph-witchery-entity-EntitySpellEffect:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-player-GCEntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    team-chisel-entity-EntityCloudInABottle:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityCustomArrow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityDragonProjectile:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityChaosGuardian:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityChaosCrystal:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mozeintel-projecte-gameObjs-entity-EntitySWRGProjectile:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mozeintel-projecte-gameObjs-entity-EntityFireProjectile:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityPersistentItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-weaponry-entity-JavelinEntity:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ic2-core-block-EntityStickyDynamite:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-entities-EntityRailgunShot:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityDragonHeart:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityCustomDragon:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-items-EntityItemFireproof:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    powercrystals-minefactoryreloaded-entity-EntityFlyingItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityChaosBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-brandon3055-draconicevolution-common-entity-EntityChaosVortex:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    powercrystals-minefactoryreloaded-entity-EntityPinkSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-boss-EntityDragon:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-mercury-entities-EntityEvolvedBlaze:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-BarnardsSystem-planets-barnardaC-entities-EntityTentacles:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openmods-entity-EntityBlock:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    galaxyspace-SolarSystem-planets-ceres-entities-EntityBossBlaze:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-mechworks-entity-item-ExplosivePrimed:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-entities-EntityFlag:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    crazypants-enderzoo-entity-EntityDireSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openblocks-common-entity-EntityMiniMe:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ic2-core-block-EntityItnt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ic2-core-block-EntityNuke:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityTunnelBore:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-core-entity-EntityCoFHFishHook:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-asteroids-entities-EntityAstroMiner:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-planets-asteroids-entities-EntityGrapple:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-entities-EntitySkylineHook:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ic2-core-block-EntityDynamite:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermaldynamics-duct-entity-EntityTransport:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openblocks-common-entity-EntityCartographer:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openblocks-common-entity-EntityItemProjectile:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityMinecartEmpty:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySnowman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    gregapi-block-prefixblock-PrefixBlockFallingEntity:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
