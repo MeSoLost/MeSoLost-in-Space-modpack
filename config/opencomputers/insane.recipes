@@ -1,0 +1,24 @@
+include file("default.recipes")
+
+
+capacitor {
+  input: [["IC2:itemPartCarbonFibre", "oc:materialTransistor", "IC2:itemPartCarbonFibre"]
+          [nuggetGold, paper, nuggetGold]
+          ["IC2:itemPartCarbonFibre", "oc:materialCircuitBoardPrinted", "IC2:itemPartCarbonFibre"]]
+}
+batteryUpgrade1 {
+  input: [[ingotIron, nuggetGold, ingotIron]
+          [fenceIron, "oc:capacitor", fenceIron]
+          [ingotIron, nuggetGold, ingotIron]]
+}
+batteryUpgrade2 {
+  input: [[ingotGold, "oc:capacitor", ingotGold]
+          [fenceIron, nuggetGold, fenceIron]
+          [ingotGold, "oc:capacitor", ingotGold]]
+}
+batteryUpgrade3 {
+  input: [[diamond, "oc:capacitor", diamond]
+          [fenceIron, "4650:65", fenceIron]
+          [diamond, "oc:capacitor", diamond]]
+}
+ 
